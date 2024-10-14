@@ -1,0 +1,50 @@
+body {
+    background-color: #E6E6FF; /* Se coloca un color de fondo suave */
+    font-family: Arial, sans-serif;
+    color: #4B0082; /* Se coloca un color de texto principal */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Se centra todo el texto en el cuerpo */
+}
+
+h2 {
+    color: #3B007F; /* Se da color de los encabezados */
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4B0082; /* Se da color de borde */
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Se ajusta el ancho */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4B0082; /* Se da color al fondo del botón */ 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #3B007F; /* Se da color al fondo en hover */
+    }
+
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none; /* Se quitan los puntos de la lista */
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    background-color: #FFFFFF; /* Se envian al fondo los elementos de la lista */
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #4B0082; /* Se da color de borde */
+}
